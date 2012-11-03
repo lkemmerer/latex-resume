@@ -1,6 +1,6 @@
-\documentclass[11pt]{res} % default is 10 pt
+\documentclass[10pt]{res} % default is 10 pt
 \usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
+&\usepackage{newcent}   % uses new century schoolbook postscript font 
 \usepackage[colorlinks=true]{hyperref}
 \setlength{\textheight}{9.5in} % increase text height to fit resume on 1 page
 \newsectionwidth{0pt}  % So the text is not indented under section headings
@@ -8,13 +8,13 @@
 
 \begin{document}
 
-  \name{LAURIE KEMMERER\\[12pt]} % the \\[12pt] adds a blank line after name
+  \name{LAURIE KEMMERER\\[10pt]} % the \\[10pt] adds a blank line after name
 
-  \address{ {\bf CONTACT INFORMATION} \\
+  \address{
     \href{mailto:laurie.kemmerer@gmail.com}{laurie.kemmerer@gmail.com} \\
     (503) 866-4437
   }
-  \address{ \\
+  \address{
     \url{http://github.com/lkemmerer} \\
     \href{http://twitter.com/im\_a\_radish}{@im\_a\_radish}
   }
@@ -22,26 +22,27 @@
   \begin{resume}
 
     \section{EXPERIENCE}
+
     \begin{ncolumn}{2}
-	    & \hfill \employer{l}Renewable Funding, LLC, \location{r}Portland, OR \\
+	    & \hfill \employer{l}Renewable Funding, LLC - \location{r}Portland, OR \\
 	    \title{l} \itshape Software Developer & \hfill\dates{r}Spring 2010-present \\
     \end{ncolumn}
     \begin{itemize} \itemsep -2pt
-	    \item[$\star$]At RF I collaborated with a large team of developers to maintain a multi-tenant Rails application that focused on educating homeowners about energy efficiency and connected them with contractors and financing to make green improvements on their property.  Components for the app included an in-house CMS and GIS funcationality that enabled tailored energy and cost savings calculations to our visitors.  We are currently standardizing energy retrofit data from local governments and utility providers for California with plans to use the data warehouse we create to drive further adoption of green energy measures.
+	    \item[$\star$]I collaborated with a large team of developers to maintain a multi-tenant Rails application that focused on educating homeowners about energy efficiency and connecting them with contractors and financing to make green improvements on their property.  Components for the app included an in-house CMS and GIS funcationality that enabled energy and cost savings calculations tailored to our visitors' properties.  We are currently standardizing energy retrofit data from local governments and utility providers in California with plans to use the data warehouse we create to drive further adoption of green energy measures.
     \end{itemize}
 
     \begin{ncolumn}{2}
-	    & \hfill \employer{l}Harland Financial Solutions, \location{r}Portland, OR \\
-	    \title{l} \itshape Software Engineer & \hfill \dates{r}2008-Spring 2010 \\
-      \title{l} \itshape Q.A. Engineer & \hfill \dates{r}2007 \\
+	    & \hfill \employer{l}Harland Financial Solutions - \location{r}Portland, OR \\
+	    \title{l} \itshape Software Engineer & \hfill \dates{r}2009-Spring 2010 \\
+      \title{l} \itshape Q.A. Engineer & \hfill \dates{r}Spring 2007-2008 \\
     \end{ncolumn}
     \begin{itemize} \itemsep -2pt
-	    \item[$\star$]I worked closely with the agile development team and its clients to determine, test, and implement design requirements for internal web applications. I logged defects and aided in the debugging process by pinpointing error sources and fixing bugs. With the help of TDD, I became familiar with C\# and ASP.NET and moved on to performing maintenance on existing applications.
-	    \item[$\star$]After being promoted to software engineer, I performed requirements gathering and end-to-end design, development, and maintenance of a range of internal web and desktop applications. Varied in scope and purpose, these apps focused on streamlining process, increasing user efficiency, reducing paper waste, and increasing revenue recognition. I also advocated for better development processes such as instituting code reviews and thoroughly documenting each phase of our development life cycle for auditing purposes.
+	    \item[$\star$]I worked closely with the agile development team and its clients to determine, test, and implement design requirements for internal web applications. I logged defects and aided in the debugging process by pinpointing error sources and fixing bugs. With the help of TDD, I became familiar with C\# and ASP.NET and moved on to perform maintenance on existing applications.
+	    \item[$\star$]After being promoted to software engineer, I performed requirements gathering and end-to-end design, development, and maintenance of a range of internal web and desktop applications. These apps streamlined process, increased user efficiency and revenue recognition, and reduced paper waste. I also advocated for better development processes such as instituting code reviews and thoroughly documenting each phase of our SDLC for auditing purposes.
     \end{itemize}
 
     \begin{ncolumn}{2}
-	    & \hfill \employer{l}Instant Media, Inc., \location{r}Beaverton, OR \\
+	    & \hfill \employer{l}Instant Media, Inc. - \location{r}Beaverton, OR \\
 	    \title{l} \itshape Lead Q.A. Technician / Customer Support & \hfill\dates{r}2006-2007 \\
     \end{ncolumn}
     \begin{itemize} \itemsep -2pt
@@ -73,9 +74,6 @@
     	\item[$\star$] Schreyer Honors College, 2001-Spring 2004,
 	    \item[$\star$] Society of Women Engineers, Swing Dancing club, Mars Society
     \end{itemize}
-
-    \section{HOBBIES}
-    Hiking, Photography, Reading science and non-fiction
 
   \end{resume}
 \end{document}
