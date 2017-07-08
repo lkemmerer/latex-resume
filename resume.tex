@@ -10,7 +10,7 @@
 
 % moderncv themes
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{grey}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvcolor{purple}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 
@@ -51,8 +51,21 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\section{Education}
-\cventry{2001--2006}{B.S. Computer Engineering}{Penn State University}{University Park, PA}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
+\section{Languages}
+\cvitemwithcomment{Ruby}{Advanced}{...my favorite language}
+\cvitemwithcomment{JavaScript}{Intermediate}{...always a peripheral language}
+\cvitemwithcomment{C\#}{Intermediate}{...it's OK. Still feeling rusty}
+\cvitemwithcomment{Scala}{Beginner/Intermediate}{...pretending it's a statically typed cross between Ruby and JavaScript and hoping nobody notices}
+
+\section{Testing Tools}
+\cvitem{Ruby}{RSpec, Capybara, Cucumber, Minitest}
+\cvdoubleitem{JavaScript}{Jasmine, Karma}{Browser}{Selenium, Watir, PhantomJS}
+\cvdoubleitem{C\#}{NUnit, Moq, XUnit, Specflow}{Scala}{Scalatest, Scalamock}
+
+\section{Other Technologies}
+\cvdoubleitem{Databases}{PostgreSQL, MongoDB, MS SQL Server}{Web}{Ruby on Rails, Sinatra, Akka HTTP, AngularJS, ServiceStack}
+\cvdoubleitem{CI}{TravisCI, TeamCity, Jenkins}{Devopsish}{Terraform, Docker, Vagrant}
+\cvitem{etc}{Akka, RabbitMQ, AWS (EC2, SQS, SNS, S3...)}
 
 \section{Experience}
 \subsection{Vocational}
@@ -77,17 +90,8 @@ Detailed achievements:%
 \subsection{Miscellaneous}
 \cventry{year--year}{Job title}{Employer}{City}{}{Description}
 
-\section{Languages}
-\cvitemwithcomment{Ruby}{Advanced}{...my favorite language}
-\cvitemwithcomment{JavaScript}{Intermediate}{...always a peripheral language}
-\cvitemwithcomment{C\#}{Intermediate}{...it's OK. Still feeling rusty}
-\cvitemwithcomment{Scala}{Beginner/Intermediate}{...still in a honeymoon phase and pretty sure I'm doing everything wrong}
-
-\section{Testing Tools}
-\cvitem{Ruby}{RSpec, Capybara, Cucumber, Minitest}
-\cvdoubleitem{JavaScript}{Jasmine, Karma}{Browser}{Selenium, Watir, PhantomJS}
-\cvdoubleitem{C\#}{NUnit, Moq, XUnit, Specflow}{Scala}{Scalatest, Scalamock}
-
+\section{Education}
+\cventry{2001--2006}{B.S. Computer Engineering}{Penn State University}{University Park, PA}{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
 
 \clearpage
 %\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
