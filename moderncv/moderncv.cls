@@ -191,8 +191,8 @@
 %                class definition
 %-------------------------------------------------------------------------------
 % minimal base settings
-\setlength\lineskip{1\p@}
-\setlength\normallineskip{1\p@}
+\setlength\lineskip{3\p@}
+\setlength\normallineskip{3\p@}
 \renewcommand\baselinestretch{}
 \setlength{\parindent}{0\p@}
 \setlength{\parskip}{0\p@}
@@ -511,7 +511,7 @@
 \let\@openbib@code\@empty
 
 % itemize, enumerate and description environment
-\setlength{\leftmargini}   {1em}
+\setlength{\leftmargini}   {0.75em}
 \leftmargin\leftmargini
 \setlength{\leftmarginii}  {\leftmargini}
 \setlength{\leftmarginiii} {\leftmargini}
